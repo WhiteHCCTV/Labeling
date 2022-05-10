@@ -2,12 +2,22 @@
 Image Labeling using WebSocket
 
 ## Requirements
-$sudo apt-get install openjdk-11-jdk
+```bash
+# Install java
+sudo apt-get install openjdk-11-jdk
+```
 
 ## Usage
-$javac server.java
-$javac client.java
+```bash
+# Build .class
+javac server.java
+javac client.java
+```
 
-$java server
-$java client
+```bash
+# Run .class
+# Server run first
+java server
+java client
+```
 
